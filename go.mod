@@ -1,4 +1,4 @@
-module github.com/kkyr/fig
+module github.com/uchti/fig
 
 go 1.21
 
