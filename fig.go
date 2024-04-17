@@ -318,12 +318,11 @@ func (f *fig) formatEnvKey(key string) string {
 	return strings.ToUpper(key)
 }
 
-// setDefaultValue calls setValue but disallows booleans from
-// being set.
+// setDefaultValue calls setValue.
 func (f *fig) setDefaultValue(fv reflect.Value, val string) error {
-	if fv.Kind() == reflect.Bool {
-		return fmt.Errorf("unsupported type: %v", fv.Kind())
-	}
+	//if fv.Kind() == reflect.Bool {
+	//	return fmt.Errorf("unsupported type: %v", fv.Kind())
+	//}
 	return f.setValue(fv, val)
 }
 
