@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kkyr/fig"
+	"github.com/uchti/fig"
 )
 
 type Config struct {

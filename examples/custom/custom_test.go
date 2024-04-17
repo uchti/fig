@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kkyr/fig"
+	"github.com/uchti/fig"
 )
 
 type ListenerType uint
